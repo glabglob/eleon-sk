@@ -1,0 +1,103 @@
+.form__section {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+    h3 {
+        font-size: 60px;
+        font-weight: 700;
+
+        @media screen and (max-width: 1199.98px) {
+            font-size: 50px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            font-size: 45px;
+            padding-top: 20px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            font-size: 40px;
+        }
+
+        span {
+            color: #ff0000;
+        }
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 20px 0px 20px;
+    }
+
+    &-input {
+        font-size: 20px;
+        width: 400px;
+        border-radius: 8px;
+        border: 2px solid #580100;
+        padding: 20px;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 479.98px) {
+            width: 350px;
+        }
+
+        @media screen and (max-width: 390.98px) {
+            width: 250px;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 320.98px) {
+            width: 200px;
+        }
+    }
+
+    &-button {
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #fff;
+        width: 400px;
+        border-radius: 28px;
+        background-color: #ff0000;
+        padding: 20px;
+        transition: transform 150ms ease;
+
+        @media screen and (max-width: 479.98px) {
+            width: 350px;
+        }
+
+        @media screen and (max-width: 390.98px) {
+            width: 250px;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 320.98px) {
+            width: 200px;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: #ff0000;
+            transform: scale(1);
+        }
+    }
+
+    &-message {
+        display: none;
+        font-weight: 500;
+        display: none;
+        color: #1e1e1e;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}

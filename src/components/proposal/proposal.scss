@@ -1,0 +1,162 @@
+.proposal__section {
+    padding: 40px 0px;
+    background-color: #fff;
+
+    h2 {
+        font-size: 70px;
+        font-weight: 700;
+
+        @media screen and (max-width: 1199.98px) {
+            font-size: 60px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            font-size: 50px;
+            padding-top: 20px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            font-size: 40px;
+        }
+    }
+
+    h3 {
+        font-size: 60px;
+        font-weight: 700;
+
+        @media screen and (max-width: 1199.98px) {
+            font-size: 50px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            font-size: 45px;
+            padding-top: 20px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            font-size: 40px;
+        }
+
+        span {
+            color: #ff0000;
+        }
+    }
+
+    .proposal__advantages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 991.98px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            span {
+                text-align: center;
+                font-size: 40px;
+                font-weight: 500;
+                -webkit-text-stroke: 1px #151515;
+
+                @media screen and (max-width: 1199.98px) {
+                    font-size: 30px;
+                }
+
+                @media screen and (max-width: 991.98px) {
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        &-icon_container {
+            width: 200px;
+            height: 200px;
+            background: url('./coma.svg') top left no-repeat;
+            background-position: 10% -15%;
+            background-color: #1e1e1e;
+            border-radius: 24px;
+            box-shadow: 0px 0px 12px 5px #1515155d;
+            border: 2px solid #580100;
+
+            @media screen and (max-width: 1199.98px) {
+                width: 150px;
+                height: 150px;
+            }
+
+            @media screen and (max-width: 991.98px) {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+    &-button {
+        padding: 40px 60px;
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: #ff0000;
+        color: #fffbfa;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 36px;
+        transition: transform 150ms ease;
+        -webkit-text-stroke: 1px #151515;
+
+        @media screen and (max-width: 1199.98px) {
+            font-size: 35px;
+            padding: 35px 50px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            font-size: 30px;
+            padding: 35px 40px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 320.98px) {
+            font-size: 20px;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: #ff0000;
+            transform: scale(1);
+            color: #1e1e1e;
+        }
+    }
+
+    &-hr {
+        height: 2px;
+        background-color: #ff0000;
+    }
+}
+
+.icon {
+    margin-top: 25%;
+    font-size: 100px;
+
+    @media screen and (max-width: 1199.98px) {
+        font-size: 70px;
+    }
+
+    @media screen and (max-width: 991.98px) {
+        font-size: 100px;
+    }
+}

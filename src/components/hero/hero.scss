@@ -1,0 +1,113 @@
+.hero__section {
+    background-color: #1e1e1e;
+    padding: 40px 0px;
+    background: url('./circleStripes.svg') right bottom no-repeat;
+    
+
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        color: #fff;
+
+        @media screen and (max-width: 991.98px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+
+        @media screen and (max-width: 991.98px) {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 75px;
+            letter-spacing: 5px;
+            color: #ff0000;
+            -webkit-text-stroke: 2px #151515;
+
+            @media screen and (max-width: 1199.98px) {
+                font-size: 60px;
+                letter-spacing: 3px;
+            }
+
+            @media screen and (max-width: 320.98px) {
+                font-size: 50px;
+                letter-spacing: 2px;
+            }
+        }
+
+        span {
+            font-size: 40px;
+            font-weight: 500;
+            -webkit-text-stroke: 1px #151515;
+
+            @media screen and (max-width: 1199.98px) {
+                font-size: 30px;
+            }
+
+            @media screen and (max-width: 320.98px) {
+                font-size: 25px;
+            }
+        }
+    }
+
+    &-img {
+        width: 500px;
+        height: 350px;
+
+        @media screen and (max-width: 1199.98px) {
+            width: 450px;
+            height: 300px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            width: 400px;
+            height: 250px;
+        }
+
+        @media screen and (max-width: 390.98px) {
+            width: 300px;
+            height: 200px;
+        }
+
+        @media screen and (max-width: 320.98px) {
+            width: 250px;
+            height: 150px;
+        }
+    }
+
+    &-tears {
+        width: 50px;
+        position: absolute;
+        top: 45px;
+        left: 45px;
+
+        @media screen and (max-width: 1199.98px) {
+            top: 50px;
+            left: 25px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            top: -10px;
+            left: 25px;
+        }
+
+        @media screen and (max-width: 390.98px) {
+            top: -10px;
+            left: 5px;
+        }
+
+        @media screen and (max-width: 320.98px) {
+            top: -10px;
+            left: 5px;
+        }
+    }
+}

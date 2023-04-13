@@ -1,0 +1,72 @@
+.technical__section {
+    background-color: #1e1e1e;
+    padding-bottom: 50px;
+    background: url('./redStripesRightEngle.svg') right bottom no-repeat;
+    background-size: cover;
+
+    h2 {
+        font-size: 50px;
+        letter-spacing: 5px;
+        color: #fff;
+        margin-bottom: 20px;
+        text-align: left;
+
+        @media screen and (max-width: 1199.98px) {
+            font-size: 45px;
+            letter-spacing: 3px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 390.98px) {
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+
+        span {
+            color: #ff0000;
+        }
+    }
+
+    &-list {
+        font-size: 40px;
+        font-weight: 500;
+        color: #fff;
+        -webkit-text-stroke: 1px #151515;
+        text-align: left;
+
+        @media screen and (max-width: 1199.98px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 479.98px) {
+            font-size: 20px;
+        }
+
+        @media screen and (max-width: 390.98px) {
+            font-size: 20px;
+            font-weight: 300;
+            -webkit-text-stroke: 0px #151515;
+
+        }
+    }
+
+    &-list_item {
+        margin-bottom: 10px;
+
+        span {
+            text-align: right;
+            color: #ff0000;
+        }
+    }
+}
